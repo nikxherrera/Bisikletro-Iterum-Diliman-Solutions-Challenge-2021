@@ -79,6 +79,13 @@ flutter:
     - assets/images/challenges/5.png
     - assets/images/meetup.png
     - assets/images/meetup-btns.png
+    - assets/images/meet-join.png
+    - assets/images/map.png
+    - assets/images/club-imgs/1.png
+    - assets/images/club-imgs/2.png
+    - assets/images/club-imgs/3.png
+    - assets/images/club-imgs/club-btn.png
+    - assets/images/club-imgs/event.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

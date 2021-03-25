@@ -34,51 +34,61 @@ class _MeetUpScreenState extends State<MeetUpScreen> {
             ),
           ],
         ),
-        body: Container(
-          child: Column(
-            children: [
-              Stack(
-                overflow: Overflow.visible,
-                alignment: Alignment.center,
-                children: [
-                  Container(
-                    width: mediaQuery.width,
-                    height: 180,
-                    child: Image.asset(
-                      'assets/images/meetup.png',
-                      fit: BoxFit.cover,
-                    ),
-                  ),
-                  Positioned(
-                    bottom: -25,
-                    right: 10,
-                    child: btnBuilder("assets/images/meetup-btns.png"),
-                  ),
-                ],
-              ),
-              Container(
-                child: Column(
+        body: SingleChildScrollView(
+          child: Container(
+            color: Colors.white,
+            child: Column(
+              children: [
+                Stack(
+                  overflow: Overflow.visible,
+                  alignment: Alignment.center,
                   children: [
                     Container(
-                      alignment: Alignment.topLeft,
-                      margin: EdgeInsets.only(left: 15, top: 15),
-                      child: Text(
-                        "EVENT DETAILS",
-                        style: TextStyle(fontSize: 16),
+                      width: mediaQuery.width,
+                      height: 180,
+                      child: Image.asset(
+                        'assets/images/meetup.png',
+                        fit: BoxFit.cover,
                       ),
                     ),
-                    Padding(
-                      padding: EdgeInsets.all(15),
-                      child: Text(
-                        detail,
-                        style: TextStyle(fontSize: 12),
-                        textAlign: TextAlign.justify,
-                      ),
+                    Positioned(
+                      bottom: -25,
+                      right: 10,
+                      child: btnBuilder("assets/images/meetup-btns.png"),
                     ),
                   ],
                 ),
-              )
-            ],
+                SizedBox(height: 20),
+                btnBuilder("assets/images/meet-join.png"),
+                Container(
+                  height: 5,
+                  color: Colors.white60,
+                ),
+                Container(
+                  child: Column(
+                    children: [
+                      Container(
+                        alignment: Alignment.topLeft,
+                        margin: EdgeInsets.only(left: 15, top: 15),
+                        child: Text(
+                          "EVENT DETAILS",
+                          style: TextStyle(fontSize: 16),
+                        ),
+                      ),
+                      Padding(
+                        padding: EdgeInsets.all(15),
+                        child: Text(
+                          detail,
+                          style: TextStyle(fontSize: 12),
+                          textAlign: TextAlign.justify,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                btnBuilder("assets/images/map.png"),
+              ],
+            ),
           ),
         ),
       ),

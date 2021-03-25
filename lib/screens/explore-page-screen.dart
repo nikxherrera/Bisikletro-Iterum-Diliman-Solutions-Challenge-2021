@@ -1,3 +1,4 @@
+import 'package:BisikletroApp/screens/club-screen.dart';
 import 'package:BisikletroApp/screens/meetup-screen.dart';
 import 'package:BisikletroApp/widgets/slidingAd-widget.dart';
 import 'package:flutter/material.dart';
@@ -53,7 +54,18 @@ class _ExplorePageScreenState extends State<ExplorePageScreen> {
                     imageAssetBuilder("assets/images/club-slides/1.png"),
                     imageAssetBuilder("assets/images/club-slides/2.png"),
                     imageAssetBuilder("assets/images/club-slides/3.png"),
-                    imageAssetBuilder("assets/images/club-slides/4.png"),
+                    InkWell(
+                      onTap: () {
+                        Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (ctx) => ClubScreen(),
+                          ),
+                        );
+                      },
+                      child: imageAssetBuilder(
+                        "assets/images/club-slides/4.png",
+                      ),
+                    ),
                     imageAssetBuilder("assets/images/club-slides/5.png"),
                     imageAssetBuilder("assets/images/club-slides/6.png"),
                   ],
