@@ -1,5 +1,6 @@
 import 'package:BisikletroApp/screens/club-screen.dart';
 import 'package:BisikletroApp/screens/meetup-screen.dart';
+import 'package:BisikletroApp/screens/profile-screen.dart';
 import 'package:BisikletroApp/widgets/slidingAd-widget.dart';
 import 'package:flutter/material.dart';
 
@@ -32,7 +33,12 @@ class _ExplorePageScreenState extends State<ExplorePageScreen> {
         ),
         actions: [
           IconButton(
-              icon: Icon(Icons.person), color: Colors.black, onPressed: () {}),
+              icon: Icon(Icons.person),
+              color: Colors.black,
+              onPressed: () {
+                Navigator.of(context)
+                    .push(MaterialPageRoute(builder: (ctx) => ProfileScreen()));
+              }),
         ],
       ),
       body: SingleChildScrollView(

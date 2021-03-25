@@ -1,5 +1,6 @@
 import 'package:BisikletroApp/screens/explore-page-screen.dart';
 import 'package:BisikletroApp/screens/home-page-screen.dart';
+import 'package:BisikletroApp/screens/tree-screen.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -11,10 +12,24 @@ class _HomeScreenState extends State<HomeScreen> {
   final _tabs = [
     HomePageScreen(),
     ExplorePageScreen(),
-    Center(child: Text("3")),
-    Center(child: Text("4")),
-    Center(child: Text("5")),
+    Center(
+      child: Container(
+        child: Image.asset("assets/images/oops.png"),
+      ),
+    ),
+    TreeScreen(),
+    Center(
+      child: Container(
+        child: Image.asset("assets/images/oops.png"),
+      ),
+    ),
   ];
+  Widget imageBuilder(String image) {
+    return Container(
+      child: Image.asset(image),
+    );
+  }
+
   int _currentIndex = 0;
   @override
   Widget build(BuildContext context) {

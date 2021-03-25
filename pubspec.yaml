@@ -30,9 +30,17 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.0
 
+  
+
 dev_dependencies:
+  flutter_launcher_icons: "^0.8.0"
   flutter_test:
     sdk: flutter
+
+flutter_icons:
+  android: true
+  image_path: "assets/images/logo1.png"
+  
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -81,11 +89,26 @@ flutter:
     - assets/images/meetup-btns.png
     - assets/images/meet-join.png
     - assets/images/map.png
+    - assets/images/oops.png
     - assets/images/club-imgs/1.png
     - assets/images/club-imgs/2.png
     - assets/images/club-imgs/3.png
     - assets/images/club-imgs/club-btn.png
     - assets/images/club-imgs/event.png
+
+    - assets/images/tree-imgs/bg.png
+    - assets/images/tree-imgs/donut.png
+    - assets/images/tree-imgs/mcdo.png
+    - assets/images/tree-imgs/reward.png
+    - assets/images/tree-imgs/seed.png
+    - assets/images/tree-imgs/selection.png
+    - assets/images/tree-imgs/shimano.png
+    - assets/images/tree-imgs/ticket.png
+    - assets/images/tree-imgs/tree.png
+    - assets/images/tree-imgs/hotpot.png
+    - assets/images/tree-imgs/r1.png
+    - assets/images/tree-imgs/r2.png
+    - assets/images/tree-imgs/v-base.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

@@ -93,7 +93,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
                   padding: EdgeInsets.all(0),
                   onPressed: () {
-                    Navigator.of(context).push(
+                    Navigator.of(context).pushReplacement(
                         MaterialPageRoute(builder: (ctx) => SignUpScreen()));
                   },
                   child: Text(

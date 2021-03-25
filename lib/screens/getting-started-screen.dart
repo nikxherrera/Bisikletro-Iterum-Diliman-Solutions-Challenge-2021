@@ -66,12 +66,17 @@ class _GettingStartedState extends State<GettingStarted> {
         child: AspectRatio(
           aspectRatio: 10 / 2,
           child: FlatButton(
+            shape: RoundedRectangleBorder(
+              side: BorderSide(
+                  color: Color(0xff3ACDDB), width: 1, style: BorderStyle.solid),
+              borderRadius: BorderRadius.circular(10),
+            ),
             onPressed: () {
               Navigator.of(context).pushReplacement(
                   MaterialPageRoute(builder: (ctx) => LoginScreen()));
             },
             child: const Text("Done", style: TextStyle(color: Colors.white)),
-            color: Colors.blueAccent,
+            color: Color(0xff3ACDDB),
           ),
         ),
       );

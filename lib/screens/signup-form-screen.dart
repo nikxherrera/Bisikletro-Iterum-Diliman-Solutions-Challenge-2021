@@ -155,7 +155,7 @@ class _SignupFormScreenState extends State<SignupFormScreen> {
                       materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
                       padding: EdgeInsets.all(0),
                       onPressed: () {
-                        Navigator.of(context).push(
+                        Navigator.of(context).pushReplacement(
                             MaterialPageRoute(builder: (ctx) => LoginScreen()));
                       },
                       child: Text(
@@ -183,7 +183,7 @@ class _SignupFormScreenState extends State<SignupFormScreen> {
                   MaterialPageRoute(builder: (ctx) => LoginScreen()));
             },
             child: const Text("SIGN UP", style: TextStyle(color: Colors.white)),
-            color: Colors.blueAccent,
+            color: Color(0xff3ACDDB),
           ),
         ),
       );

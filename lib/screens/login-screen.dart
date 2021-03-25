@@ -24,7 +24,7 @@ class _LoginScreenState extends State<LoginScreen> {
             children: [
               Text(
                 "Login",
-                style: TextStyle(fontSize: 40),
+                style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
               ),
               SizedBox(height: 20),
               Text("Login to your account"),
@@ -52,6 +52,12 @@ class _LoginScreenState extends State<LoginScreen> {
                     AspectRatio(
                       aspectRatio: 10 / 2,
                       child: FlatButton(
+                        shape: RoundedRectangleBorder(
+                            side: BorderSide(
+                                color: Color(0xff3ACDDB),
+                                width: 1,
+                                style: BorderStyle.solid),
+                            borderRadius: BorderRadius.circular(10)),
                         onPressed: () {
                           Navigator.of(context).pushReplacement(
                               MaterialPageRoute(
@@ -59,7 +65,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         },
                         child: Text("LOGIN",
                             style: TextStyle(color: Colors.white)),
-                        color: Colors.blueAccent,
+                        color: Color(0xff3ACDDB),
                       ),
                     ),
                   ],
@@ -102,7 +108,6 @@ class _LoginScreenState extends State<LoginScreen> {
                       Navigator.of(context).push(
                           MaterialPageRoute(builder: (ctx) => SignUpScreen()));
                     },
-                    color: Colors.red,
                     child: Text(
                       "Signup",
                       style: TextStyle(color: Colors.blue),
