@@ -19,17 +19,10 @@ class _ProfileScreenState extends State<ProfileScreen> {
           ),
           title: Container(
             child: Text(
-              "Rewards",
+              "Profile",
               style: TextStyle(color: Colors.black),
             ),
           ),
-          actions: [
-            IconButton(
-              icon: Icon(Icons.more_horiz),
-              color: Colors.black,
-              onPressed: () {},
-            ),
-          ],
         ),
         body: Center(
           child: Container(
