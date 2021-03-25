@@ -66,6 +66,19 @@ flutter:
     - assets/images/home-slides/2.png
     - assets/images/home-slides/3.png
     - assets/images/home-slides/4.png
+    - assets/images/club-slides/1.png
+    - assets/images/club-slides/2.png
+    - assets/images/club-slides/3.png
+    - assets/images/club-slides/4.png
+    - assets/images/club-slides/5.png
+    - assets/images/club-slides/6.png
+    - assets/images/challenges/1.png
+    - assets/images/challenges/2.png
+    - assets/images/challenges/3.png
+    - assets/images/challenges/4.png
+    - assets/images/challenges/5.png
+    - assets/images/meetup.png
+    - assets/images/meetup-btns.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

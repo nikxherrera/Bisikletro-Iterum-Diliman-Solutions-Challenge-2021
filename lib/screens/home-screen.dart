@@ -1,3 +1,4 @@
+import 'package:BisikletroApp/screens/explore-page-screen.dart';
 import 'package:BisikletroApp/screens/home-page-screen.dart';
 import 'package:flutter/material.dart';
 
@@ -9,7 +10,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   final _tabs = [
     HomePageScreen(),
-    Center(child: Text("2")),
+    ExplorePageScreen(),
     Center(child: Text("3")),
     Center(child: Text("4")),
     Center(child: Text("5")),
