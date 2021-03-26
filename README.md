@@ -3,6 +3,7 @@
 # 🚴 Bisikletro 
 
 BE a BiyaHEROOO🦸
+
 A transforming application for cyclists, we turn you into a hero. Plant a tree with us and be better as a cyclist.
 
 ## 📌 Innovation Proposal
@@ -13,7 +14,7 @@ Bisikletro- Iterum Diliman Solutions Challenge 2021 link : [Bisikletro-Iterum](h
 ## 📌 Prototype
 👉 Bisikletro Prototype (low-fi, hi-i, protoype): [Prototype](https://www.figma.com/file/TYNJDs3V3E5ORQso2v6JN8/Bisikletro?node-id=0%3A1) 
 
-👉 Bisikletro Prototype (mobile tyoe) : [On-Mobile Prototype](https://www.figma.com/proto/TYNJDs3V3E5ORQso2v6JN8/Bisikletro?node-id=1%3A933&scaling=scale-down&page-id=0%3A1)
+👉 Bisikletro Prototype (mobile type) : [On-Mobile Prototype](https://www.figma.com/proto/TYNJDs3V3E5ORQso2v6JN8/Bisikletro?node-id=1%3A933&scaling=scale-down&page-id=0%3A1)
 
 FOR BETTER EXPERIENCE USE DEVICE SIZE : 414 x 896 (Realme 5 pro display size) or just click the ▶️ in figma.
 
