@@ -30,9 +30,7 @@ Video pitching : [Bisikletro-Pitching](https://www.youtube.com/watch?v=dr9YJeUZ8
 ## 🌐 Website and Source Code 
 Bisikletro source code - [Bisikletro Source Code](https://github.com/NeekoNeeko/Bisikletro-Iterum-Diliman-Solutions-Challenge-2021)
 
-Link to download the app (no need to install flutter if you want) :
-
-[Website : ]( https://bisikletro.df.r.appspot.com/?fbclid=IwAR2-BSjoKu4N9h_v5_6dDpJqciLmeO7mnw3E3qIV__lJBt9v2eGMLdlEiFE)
+Download the app (no need to install flutter if you want) : [Bisikletro : ]( https://bisikletro.df.r.appspot.com/?fbclid=IwAR2-BSjoKu4N9h_v5_6dDpJqciLmeO7mnw3E3qIV__lJBt9v2eGMLdlEiFE)
 
 ## How to install flutter : 
 Please follow the link  to install flutter.
