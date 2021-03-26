@@ -35,8 +35,33 @@ Bisikletro source code - [Bisikletro Source Code](https://github.com/NeekoNeeko/
 
 Download the app (no need to install flutter if you want) : [Bisikletro Website : ]( https://bisikletro.df.r.appspot.com/?fbclid=IwAR2-BSjoKu4N9h_v5_6dDpJqciLmeO7mnw3E3qIV__lJBt9v2eGMLdlEiFE)
 
-## How to install flutter : 
-Please follow the link  to install flutter.
+
+## How to run BisikletroApp Nodejs server locally:
+
+#### Open the project folder directory
+```console
+cd ./BisikletroApp/Bisikletro
+```
+#### Run it locally
+```console
+npm start
+```
+### 
+
+## How to run Flutter App Project File:
+#### Open the project folder directory
+```console
+cd ./BisikletroApp
+```
+### 
+
+#### Run the app on your device or emulator
+```console
+flutter run
+```
+
+## How to install Flutter : 
+Please follow the link  to install Flutter.
 
 [video 1](https://www.youtube.com/watch?v=Z2ugnpCQuyw)
 
