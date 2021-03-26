@@ -1,7 +1,9 @@
 # Bisikletro-Iterum-Diliman-Solutions-Challenge-2021
 
-# 🚴  Iterum - Bisikletro 
-Foobar is a Python library for dealing with word pluralization.
+# 🚴 Bisikletro 
+
+BE a BiyaHEROOO🦸
+A transforming application for cyclists, we turn you into a hero. Plant a tree with us and be better as a cyclist.
 
 ## 📌 Innovation Proposal
 
@@ -30,7 +32,7 @@ Bisikletro source code - [Bisikletro Source Code](https://github.com/NeekoNeeko/
 
 Link to download the app (no need to install flutter if you want) :
 
-[Bisikletro Website : ]( https://bisikletro.df.r.appspot.com/?fbclid=IwAR2-BSjoKu4N9h_v5_6dDpJqciLmeO7mnw3E3qIV__lJBt9v2eGMLdlEiFE)
+[Website : ]( https://bisikletro.df.r.appspot.com/?fbclid=IwAR2-BSjoKu4N9h_v5_6dDpJqciLmeO7mnw3E3qIV__lJBt9v2eGMLdlEiFE)
 
 ## How to install flutter : 
 Please follow the link  to install flutter.
